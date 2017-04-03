@@ -4,9 +4,102 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
 </head>
 
 <body>
+
+
+  <nav id="navheader">
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">View Music</a></li>
+      <li class="list-inline-item">|</li>
+      <li class="list-inline-item"><a href="#">Add Music</a></li>
+      <li class="list-inline-item">|</li>
+      <li class="list-inline-item"><a href="#">Profile</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    
+    <div id="left-content">
+    
+      Song Length:
+      <input class="songStuff" type="range" id="song_slider">
+
+      Artist:
+      <select class="songStuff" id="artist">
+        <option selected> </option>
+        <option value="BandName">Jefferson Airplane</option>
+        <option value="BandName">Beirut</option>
+        <option value="BandName">Modest Mouse</option>
+        <option value="BandName">Sylvan Esso</option>
+        <option value="BandName">Pink Floyd</option>
+      </select>
+      
+      Album:
+      <select class="songStuff" id="album">
+        <option selected> </option>
+        <option value="albumName">Surrealistic Pillow</option>
+        <option value="albumName">Longisland LP</option>
+        <option value="albumName">Good News For People Who Love Bad News</option>
+        <option value="slbumName">Sylvan Esso</option>
+        <option value="albumName">Wish You Were Here</option>
+      </select>
+      
+      Genre:
+      <div class="formContainer" id="checkboxes">
+              <div class="checkbox item-1"><input type="checkbox" value="rock">Rock</div>
+              <div class="checkbox item-2"><input type="checkbox" value="indieAlt">Indie/Alt</div>
+              <div class="checkbox item-3"><input type="checkbox" value="jazz">Jazz</div>
+              <div class="checkbox item-4"><input type="checkbox">Select All</div>
+      </div>
+         
+      
+
+      
+
+      <div class="filterButton">
+        <input type="button" id="filter_button" value="Filter">
+      </div>
+      </div>
+
+   
+
+    <div id="right-content">
+
+      <section id="song1" class="song_list">
+        <h3>White Rabbit</h3>
+
+        Jefferson Airplane | Surrealistic Pillow | Rock
+      </section><br>
+
+      <section id="song2" class="song_list">
+        <h3>Scenic World</h3>
+
+        Beirut | Longisland LP | Indie/Alt
+      </section><br>
+
+      <section id="song3" class="song_list">
+        <h3>Ocean Breathes Salty</h3>
+
+        Modest Mouse | Good News for People Who Love Bad News | Indie/Alt
+      </section><br>
+
+      <section id="song4" class="song_list">
+        <h3>Coffee</h3>
+
+        Sylvan Esso | Sylvan Esso | Indie/Alt
+      </section>
+
+    </div>
+  </div>
+  
+
+<!-- <script type="text/javascript" src="songs.js"></script> -->
+
+
 
 
 </body>
