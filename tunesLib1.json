@@ -1,0 +1,44 @@
+{
+	"songLib": [
+
+		{
+			"Title": "White Rabbit",
+			"Artist": "Jefferson Airplane",
+			"Album": "Surrealistic Pillow",
+			"Genre": "Rock"
+
+		},
+
+		{
+			"Title": "Scenic World",
+			"Artist": "Beirut",
+			"Album": "LonGisland LP",
+			"Genre": "Indie/Alt"
+			
+		},
+
+		{
+			"Title": "Ocean Breathes Salty",
+			"Artist": "Modest Mouse",
+			"Album": "Good News for People Who Love Bad News",
+			"Genre": "Indie/Alt"
+			
+		},
+
+		{
+			"Title": "Coffee",
+			"Artist": "Sylvan Esso",
+			"Album": "Sylvan Esso",
+			"Genre": "Indie/Alt"
+			
+		}, 
+
+		{
+			"Title": "It Don't Mean a Thing",
+			"Artist": "Ella Fitzgerald",
+			"Album": "Ella Fitzgerald Sings The Duke Ellington Song Book",
+			"Genre": "Jazz"
+			
+		}
+	]
+}

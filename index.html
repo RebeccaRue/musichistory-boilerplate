@@ -3,9 +3,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Music History</title>
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-
+  <title>musicHistory</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -13,12 +14,24 @@
 
   <nav id="navheader">
     <ul class="list-inline">
-      <li class="list-inline-item"><a href="#">View Music</a></li>
-      <li class="list-inline-item">|</li>
-      <li class="list-inline-item"><a href="#">Add Music</a></li>
-      <li class="list-inline-item">|</li>
-      <li class="list-inline-item"><a href="#">Profile</a></li>
+      <li class="list-inline-item"><a href="#" id="link-home">Home</a></li>
+      <li class="list-inline-item"><a href="#" id="link-list">List</a></li>
+      <li class="list-inline-item"><a href="#" id="link-add">Add</a></li>
     </ul>
+  
+
+  <section id="home-view">
+    Home
+  </section>
+
+  <section class="hidden" id="add-view">
+    List
+  </section>
+
+  <section class="hidden" id="add-view">
+    Add
+  </section>
+
   </nav>
 
   <div class="content">
@@ -69,38 +82,18 @@
 
     <div id="right-content">
 
-      <section id="song1" class="song_list">
-        <h3>White Rabbit</h3>
+    
+    <div id="listFreshBeats">
 
-        Jefferson Airplane | Surrealistic Pillow | Rock
-      </section><br>
-
-      <section id="song2" class="song_list">
-        <h3>Scenic World</h3>
-
-        Beirut | Longisland LP | Indie/Alt
-      </section><br>
-
-      <section id="song3" class="song_list">
-        <h3>Ocean Breathes Salty</h3>
-
-        Modest Mouse | Good News for People Who Love Bad News | Indie/Alt
-      </section><br>
-
-      <section id="song4" class="song_list">
-        <h3>Coffee</h3>
-
-        Sylvan Esso | Sylvan Esso | Indie/Alt
-      </section>
-
-    </div>
+  </div>
   </div>
   
-
-<!-- <script type="text/javascript" src="songs.js"></script> -->
 
 
 
 
 </body>
+
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="JS/songs.js"></script>
 </html>
